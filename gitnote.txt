@@ -5,3 +5,4 @@ manegenment refix
 命令git reset HEAD <file>可以把暂存区的修改撤销掉（unstage）  git reset HEAD readme.txt  
 还记得如何丢弃工作区的修改吗？ git checkout -- readme.txt
 git push -u origin master 由于远程库是空的，我们第一次推送master分支时，加上了-u参数，Git不但会把本地的master分支内容推送的远程新的master分支
+现在，远程库已经准备好了，下一步是用命令git clone克隆一个本地库  git clone git@github.com:michaelliao/gitskills.git
