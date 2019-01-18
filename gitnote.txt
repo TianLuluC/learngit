@@ -2,3 +2,5 @@ git diff 比较的是工作区文件与缓冲区文件的区别（修改后但未git add）
 git diff --cached 和--staged比较的是工作区文件与暂存区（stage）文件的区别
 manegenment refix
 试一下 git push origin master
+命令git reset HEAD <file>可以把暂存区的修改撤销掉（unstage）  git reset HEAD readme.txt  
+还记得如何丢弃工作区的修改吗？ git checkout -- readme.txt
