@@ -1,3 +1,4 @@
 git diff 比较的是工作区文件与缓冲区文件的区别（修改后但未git add）
 git diff --cached 和--staged比较的是工作区文件与暂存区（stage）文件的区别
 manegenment refix
+试一下 git push origin master
